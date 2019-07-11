@@ -1,0 +1,29 @@
+2019-07-04 09:14:55 [INFO] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) : HV000001: Hibernate Validator 5.3.5.Final
+2019-07-04 09:16:35 [INFO] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) : HV000001: Hibernate Validator 5.3.5.Final
+2019-07-04 09:16:40 [INFO] [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) : HHH000204: Processing PersistenceUnitInfo [
+	name: logPersistenceUnit
+	...]
+2019-07-04 09:16:40 [INFO] [main] org.hibernate.Version.logVersion(Version.java:37) : HHH000412: Hibernate Core {5.1.0.Final}
+2019-07-04 09:16:40 [INFO] [main] org.hibernate.cfg.Environment.<clinit>(Environment.java:213) : HHH000206: hibernate.properties not found
+2019-07-04 09:16:40 [INFO] [main] org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:317) : HHH000021: Bytecode provider name : javassist
+2019-07-04 09:16:40 [INFO] [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-04 09:16:41 [INFO] [main] org.hibernate.dialect.Dialect.<init>(Dialect.java:156) : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-04 09:16:42 [WARN] [main] org.hibernate.id.UUIDHexGenerator.<init>(UUIDHexGenerator.java:42) : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2019-07-04 09:16:43 [INFO] [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) : HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2019-07-04 09:16:43 [INFO] [main] org.hibernate.dialect.Dialect.<init>(Dialect.java:156) : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-04 09:21:22 [INFO] [background-preinit] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) : HV000001: Hibernate Validator 5.3.5.Final
+2019-07-04 09:21:26 [INFO] [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) : HHH000204: Processing PersistenceUnitInfo [
+	name: logPersistenceUnit
+	...]
+2019-07-04 09:21:26 [INFO] [main] org.hibernate.Version.logVersion(Version.java:37) : HHH000412: Hibernate Core {5.1.0.Final}
+2019-07-04 09:21:26 [INFO] [main] org.hibernate.cfg.Environment.<clinit>(Environment.java:213) : HHH000206: hibernate.properties not found
+2019-07-04 09:21:26 [INFO] [main] org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:317) : HHH000021: Bytecode provider name : javassist
+2019-07-04 09:21:26 [INFO] [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-04 09:21:27 [INFO] [main] org.hibernate.dialect.Dialect.<init>(Dialect.java:156) : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-04 09:21:28 [WARN] [main] org.hibernate.id.UUIDHexGenerator.<init>(UUIDHexGenerator.java:42) : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2019-07-04 09:21:30 [INFO] [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) : HHH000204: Processing PersistenceUnitInfo [
+	name: persistenceUnit
+	...]
+2019-07-04 09:21:30 [INFO] [main] org.hibernate.dialect.Dialect.<init>(Dialect.java:156) : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect

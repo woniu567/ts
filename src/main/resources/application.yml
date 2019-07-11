@@ -1,0 +1,83 @@
+server:
+  port: 8088
+  display-name: TS
+  context-path: /ts
+  jsp-servlet:
+    init-parameters:
+      development: true
+  session:
+    timeout: 1800
+  # 后台调用服务出现异常时是否返回堆栈信息
+  error:
+    include-stacktrace: always
+  tomcat:
+    additional-tld-skip-patterns: "*.jar"
+
+info:
+  version: "@project.version@"
+  stage: test
+
+  
+logging:
+  config: classpath:log4j2.xml
+  path: logs
+
+endpoints:
+  health:
+    sensitive: false
+
+management:
+  security:
+    enabled: false
+  context-path: /actuator
+
+spring:
+  profiles:
+    include: devdb,logdb,sso
+  application:
+    name: ${server.display-name}
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+    date-format: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  http:
+    multipart:
+      maxFileSize : 20Mb
+      maxRequestSize: 100Mb
+#    deserialization:
+#      fail_on_unknown_properties: false
+#    serialization:
+#      write-dates-as-timestamps: true
+
+#本系统默认添加账户的密码，注意
+conf:
+  address:
+    um: ${rivamed.security.cas.app-url}
+    cmp: http://192.168.10.132:8026/rmApi
+  noLength: 4
+  password: '123456'
+
+#这是security权限认证框架的配置，可以忽略
+security:
+  basic:
+    enabled: false
+  user:
+    name: 'superAdmin'
+    password: '123456'
+    role: 'super_admin'
+
+#这是UM的注册账户默认密码配置，可以忽略
+   
+um:
+  default:
+    password: '123456'
+    
+# netty websocket
+netty:
+  server:
+    websocket:
+      port: 1088

@@ -1,0 +1,40 @@
+2019-07-04 09:14:54 [INFO] [main] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) : Starting Application on DESKTOP-U123DCT with PID 46776 (C:\Users\leiyang\git\ts\target\classes started by leiyang in C:\Users\leiyang\git\ts)
+2019-07-04 09:14:55 [INFO] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597) : The following profiles are active: devdb,logdb,sso
+2019-07-04 09:16:34 [INFO] [main] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) : Starting RivamedApplication v3.5.4 on DESKTOP-U123DCT with PID 21992 (c:\.m2\cn\rivamed\framework\rivamed-core\3.5.4\rivamed-core-3.5.4.jar started by leiyang in C:\Users\leiyang\git\ts)
+2019-07-04 09:16:34 [INFO] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597) : The following profiles are active: devdb,logdb,sso
+2019-07-04 09:16:37 [INFO] [main] cn.rivamed.framework.common.config.PropertiesBean.<init>(PropertiesBean.java:18) : Construct EnvironmentProperties
+2019-07-04 09:16:37 [INFO] [main] cn.rivamed.framework.common.config.BeanRegistryConfig.postProcessBeanDefinitionRegistry(BeanRegistryConfig.java:39) : Invoke Method postProcessBeanDefinitionRegistry
+2019-07-04 09:16:38 [INFO] [main] cn.rivamed.framework.common.config.BeanRegistryConfig.postProcessBeanFactory(BeanRegistryConfig.java:25) : Invoke Method postProcessBeanFactory
+2019-07-04 09:16:42 [INFO] [main] cn.rivamed.framework.common.config.BaseJpaConfig.transactionInterceptor(BaseJpaConfig.java:118) : TransactionInterceptor 初始化
+2019-07-04 09:16:43 [INFO] [main] cn.rivamed.framework.common.config.BaseJpaConfig.transactionInterceptor(BaseJpaConfig.java:118) : TransactionInterceptor 初始化
+2019-07-04 09:16:46 [INFO] [main] cn.rivamed.framework.log.thread.start.RunWriteLogThread.<init>(RunWriteLogThread.java:16) : ==============wrigeLogThread   setup  ===========
+2019-07-04 09:16:46 [INFO] [main] cn.rivamed.framework.log.thread.start.RunWriteLogThread.<init>(RunWriteLogThread.java:18) : ==============wrigeLogThread   start  ===========
+2019-07-04 09:16:46 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadIgnorList(AuthorityServiceImpl.java:119) : 
+Ignor URL资源 : /rivamedApi/**,/base/css/**,/base/images/**,/base/js/**,/css/**,/images/**,/js/**,/static/**,/plugins/**,/*.html,/loginFail.jsp,/unauthorized.jsp
+2019-07-04 09:16:46 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadAuthenticatedList(AuthorityServiceImpl.java:138) : 
+Authenticated URL资源 : /role/roleCtrl.htm
+2019-07-04 09:16:46 [WARN] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadResourceMap(AuthorityServiceImpl.java:170) : No bean named 'authorityInterface' available
+2019-07-04 09:16:46 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadResourceMap(AuthorityServiceImpl.java:176) : 
+DatabaseConfig URL资源 : {}
+2019-07-04 09:16:46 [WARN] [main] cn.rivamed.framework.app.service.dictionary.impl.DictionaryCacheServiceImpl.init(DictionaryCacheServiceImpl.java:65) : ======PLS confirm if or not configuration dictionaryHolder=====
+2019-07-04 09:16:46 [WARN] [main] cn.rivamed.framework.app.service.dictionary.impl.DictionaryCacheServiceImpl.init(DictionaryCacheServiceImpl.java:66) : No bean named 'dictionaryHolderService' available
+2019-07-04 09:16:51 [INFO] [main] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) : Started RivamedApplication in 17.774 seconds (JVM running for 27.152)
+2019-07-04 09:21:21 [INFO] [main] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) : Starting RivamedApplication v3.5.4 on DESKTOP-U123DCT with PID 28212 (c:\.m2\cn\rivamed\framework\rivamed-core\3.5.4\rivamed-core-3.5.4.jar started by leiyang in C:\Users\leiyang\git\ts)
+2019-07-04 09:21:21 [INFO] [main] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597) : The following profiles are active: devdb,logdb,sso
+2019-07-04 09:21:24 [INFO] [main] cn.rivamed.framework.common.config.PropertiesBean.<init>(PropertiesBean.java:18) : Construct EnvironmentProperties
+2019-07-04 09:21:24 [INFO] [main] cn.rivamed.framework.common.config.BeanRegistryConfig.postProcessBeanDefinitionRegistry(BeanRegistryConfig.java:39) : Invoke Method postProcessBeanDefinitionRegistry
+2019-07-04 09:21:25 [INFO] [main] cn.rivamed.framework.common.config.BeanRegistryConfig.postProcessBeanFactory(BeanRegistryConfig.java:25) : Invoke Method postProcessBeanFactory
+2019-07-04 09:21:29 [INFO] [main] cn.rivamed.framework.common.config.BaseJpaConfig.transactionInterceptor(BaseJpaConfig.java:118) : TransactionInterceptor 初始化
+2019-07-04 09:21:30 [INFO] [main] cn.rivamed.framework.common.config.BaseJpaConfig.transactionInterceptor(BaseJpaConfig.java:118) : TransactionInterceptor 初始化
+2019-07-04 09:21:33 [INFO] [main] cn.rivamed.framework.log.thread.start.RunWriteLogThread.<init>(RunWriteLogThread.java:16) : ==============wrigeLogThread   setup  ===========
+2019-07-04 09:21:33 [INFO] [main] cn.rivamed.framework.log.thread.start.RunWriteLogThread.<init>(RunWriteLogThread.java:18) : ==============wrigeLogThread   start  ===========
+2019-07-04 09:21:34 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadIgnorList(AuthorityServiceImpl.java:119) : 
+Ignor URL资源 : /rivamedApi/**,/base/css/**,/base/images/**,/base/js/**,/css/**,/images/**,/js/**,/static/**,/plugins/**,/*.html,/loginFail.jsp,/unauthorized.jsp
+2019-07-04 09:21:34 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadAuthenticatedList(AuthorityServiceImpl.java:138) : 
+Authenticated URL资源 : /role/roleCtrl.htm
+2019-07-04 09:21:34 [WARN] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadResourceMap(AuthorityServiceImpl.java:170) : No bean named 'authorityInterface' available
+2019-07-04 09:21:34 [INFO] [main] cn.rivamed.framework.app.service.common.impl.AuthorityServiceImpl.loadResourceMap(AuthorityServiceImpl.java:176) : 
+DatabaseConfig URL资源 : {}
+2019-07-04 09:21:34 [WARN] [main] cn.rivamed.framework.app.service.dictionary.impl.DictionaryCacheServiceImpl.init(DictionaryCacheServiceImpl.java:65) : ======PLS confirm if or not configuration dictionaryHolder=====
+2019-07-04 09:21:34 [WARN] [main] cn.rivamed.framework.app.service.dictionary.impl.DictionaryCacheServiceImpl.init(DictionaryCacheServiceImpl.java:66) : No bean named 'dictionaryHolderService' available
+2019-07-04 09:21:39 [INFO] [main] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) : Started RivamedApplication in 18.803 seconds (JVM running for 29.735)
