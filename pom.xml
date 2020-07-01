@@ -27,7 +27,7 @@
 		<system.node.version>v8.11.4</system.node.version>
 		<!-- npm插件版本,用于集成angular服务 -->
 		<system.npm.version>5.6.0</system.npm.version>
-		<mysql.version>8.0.12</mysql.version>
+		<mysql.version>8.0.16</mysql.version>
 		<spring.data.elasticsearch.version>3.1.0.RELEASE</spring.data.elasticsearch.version>
 	</properties>
 
